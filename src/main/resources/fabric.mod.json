@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "no_lava_pockets",
+  "version": "${version}",
+  "name": "No Lava Pockets",
+  "description": "Removes the hidden 1x1 lava pockets that are generated in the nether. Does not touch any other nether lava generation.",
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.duchars.nolavapockets.NoLavaPockets"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
